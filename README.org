@@ -1,0 +1,53 @@
+#+TITLE: Midi_Shield
+#+AUTHOR: Justin Hornosty (jjrh)
+#+EMAIL: justin@credil.org
+#+OPTIONS: section-number-format: 1
+#+preamble: ji
+#+OPTIONS: ^:nil
+#+STARTUP: align showall
+#+OPTIONS: tex:t
+#+OPTIONS: tex:nil
+#+OPTIONS: tex:verbatim
+#+STARTUP: latexpreview
+#+STARTUP: indent
+#+LaTeX_HEADER: \usepackage[margin=0.75in]{geometry}
+#+LaTeX_HEADER: \usepackage{framed}
+#+LaTeX_HEADER: \usepackage{xcolor}
+#+LaTeX_HEADER: \definecolor{shadecolor}{gray}{.95}
+#+LaTeX_HEADER: \newenvironment{results}{\begin{shaded}}{\end{shaded}}
+
+
+#+HTML:
+
+#+begin_html
+<script>
+/* ugh org-mode will make some colors in src tags really hard to read
+   this is a yucky hack to dig into the dom and fix that.
+
+   colors = {"replace this": "with this"}
+
+*/
+function fix_ugly_colors(){
+    var colors = {"#eedd82": "red",
+                  "#ffa07a": "#006600",
+                  "#00ffff": "#0099CC",
+                  }
+    for( i in colors){
+        var re = new RegExp(i,"g");
+        document.body.innerHTML = document.body.innerHTML.replace(re,colors[i])
+    }
+}
+window.onload=fix_ugly_colors
+</script>
+#+end_html
+
+
+* overview
+  - My first attempt at building a PCB to be sent to manufacturing
+
+  The project is a midi shield board to be connected to the teensy3
+  for use with the Audio board.
+
+  The schematic *should* be a copy of [[https://www.pjrc.com/teensy/td_libs_MIDI_sch.gif][pjrc's schematic]]
+
+  (see: https://www.pjrc.com/teensy/td_libs_MIDI.html )
