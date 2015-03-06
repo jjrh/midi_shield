@@ -51,3 +51,21 @@ window.onload=fix_ugly_colors
   The schematic *should* be a copy of [[https://www.pjrc.com/teensy/td_libs_MIDI_sch.gif][pjrc's schematic]]
 
   (see: https://www.pjrc.com/teensy/td_libs_MIDI.html )
+
+
+* images
+     #+CAPTION: schematic
+     #+NAME:   fig:1
+     #+attr_html: :width 800px
+     [[./render/midishield_sch.png]]
+
+
+     #+CAPTION: image of the PCB
+     #+NAME:   fig:2
+     #+attr_html: :width 400px
+     [[./render/midishield.png]]
+
+     #+CAPTION: image of the PCB ('as-shown' setting)
+     #+NAME:   fig:3
+     #+attr_html: :width 400px
+     [[./render/midishield_as-shown.png]]
