@@ -1,11 +1,12 @@
-# Name of the project
+name=midishield
+# # Name of the project
 PROJNAME := midishield
 
-# We pull in all schematic pages by default..
+# # We pull in all schematic pages by default..
 #PAGES := $(shell ls -1 *_p*.sch)
 PAGES := $(shell ls -1 *.sch)
 
-# where to generated files go
+# # where to generated files go
 OBJDIR := .
 
 # geda dir

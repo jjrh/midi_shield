@@ -44,7 +44,7 @@ symversion=0.1
 T 46300 48400 5 10 1 0 0 0 1
 value=0.01uf
 T 46300 48300 5 10 0 0 0 0 1
-footprint=ACY150
+footprint=RCY100
 }
 C 44300 47200 1 0 0 resistor-1.sym
 {
@@ -64,7 +64,7 @@ device=RESISTOR
 T 51100 48500 5 10 1 1 0 0 1
 refdes=R2
 T 50900 48200 5 10 0 0 0 0 1
-footprint=RN55_type_0.1W_Resistor
+footprint=R025
 T 50900 48100 5 10 1 0 0 0 1
 value=220
 }
@@ -90,7 +90,7 @@ refdes=D1
 T 45400 46500 5 10 1 0 0 0 1
 value=1N4148
 T 46100 46500 5 10 0 0 0 0 1
-footprint=R025
+footprint=ALF400
 }
 N 47300 47300 47300 47100 4
 N 45200 46400 47200 46400 4
