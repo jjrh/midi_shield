@@ -53,19 +53,37 @@ window.onload=fix_ugly_colors
   (see: https://www.pjrc.com/teensy/td_libs_MIDI.html )
 
 
-* images
-     #+CAPTION: schematic
-     #+NAME:   fig:1
-     #+attr_html: :width 800px
-     [[./render/midishield_sch.png]]
+* 3.3v board (teesny3)
+
+#+CAPTION: schematic
+#+NAME:   fig:1
+#+attr_html: :width 800px
+[[./render/midishield-3_3V_sch.png]]
 
 
-     #+CAPTION: image of the PCB
-     #+NAME:   fig:2
-     #+attr_html: :width 400px
-     [[./render/midishield.png]]
+#+CAPTION: as shown
+#+NAME:   fig:1
+#+attr_html: :width 800px
+[[./render/midishield-3_3V.png]]
 
-     #+CAPTION: image of the PCB ('as-shown' setting)
-     #+NAME:   fig:3
-     #+attr_html: :width 400px
-     [[./render/midishield_as-shown.png]]
+#+CAPTION: photo-mode
+#+NAME:   fig:1
+#+attr_html: :width 800px
+[[./render/midishield-3_3V_photo-mode.png]]
+
+# * images
+#      #+CAPTION: schematic
+#      #+NAME:   fig:1
+#      #+attr_html: :width 800px
+#      [[./render/midishield_sch.png]]
+
+
+#      #+CAPTION: image of the PCB
+#      #+NAME:   fig:2
+#      #+attr_html: :width 400px
+#      [[./render/midishield.png]]
+
+#      #+CAPTION: image of the PCB ('as-shown' setting)
+#      #+NAME:   fig:3
+#      #+attr_html: :width 400px
+#      [[./render/midishield_as-shown.png]]
