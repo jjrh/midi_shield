@@ -1,0 +1,253 @@
+# release: pcb 1.99x
+# To read pcb files, the pcb version (or the cvs source date) must be >= the file version
+FileVersion[20070407]
+PCB["" 600000 500000]
+Grid[10000.000000 0 0 0]
+Cursor[0 0 0.000000]
+PolyArea[200000000.000000]
+Thermal[0.500000]
+DRC[1000 1000 1000 1000 1500 1000]
+Flags("nameonpcb,uniquename,clearnew,snappin")
+Groups("1,c:2:3:4:5:6,s:7:8")
+Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
+
+Element(0x00000000 "RN55_type_0.1W_Resistor" "R5" "47ohm" 0 0 -35 -145 1 150 0x00000000)
+(
+	Pin(0 0 60 30 90 28 "1" "1" 0x00000101)
+	Pin(0 -400 60 30 90 28 "2" "2" 0x02000001)
+	ElementLine (-50 -100 -50 -300 10)
+	ElementLine (-50 -300 50 -300 10)
+	ElementLine (50 -300 50 -100 10)
+	ElementLine (50 -100 -50 -100 10)
+	ElementLine (0 -40 0 -100 10)
+	ElementLine (0 -300 0 -360 10)
+	)
+Element(0x00 "JUMPER4" "CONN3" "unknown" 0 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 Pin(50 150 60 38 "2" 0x01)
+	 Pin(50 250 60 38 "3" 0x01)
+	 Pin(50 350 60 38 "4" 0x01)
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 100 400 10)
+	ElementLine(100 400 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+Element(0x00000000 "RN55_type_0.1W_Resistor" "R4" "47ohm" 0 0 -35 -145 1 150 0x00000000)
+(
+	Pin(0 0 60 30 90 28 "1" "1" 0x00000101)
+	Pin(0 -400 60 30 90 28 "2" "2" 0x02000001)
+	ElementLine (-50 -100 -50 -300 10)
+	ElementLine (-50 -300 50 -300 10)
+	ElementLine (50 -300 50 -100 10)
+	ElementLine (50 -100 -50 -100 10)
+	ElementLine (0 -40 0 -100 10)
+	ElementLine (0 -300 0 -360 10)
+	)
+Element(0x00 "ALF400" "D1" "1N4148" 0 0 0 100 0x00)
+(
+	Pin(0 200 50 20 "1" 0x101)
+	Pin(400 200 50 20 "2" 0x01)
+	ElementLine(0 200 133 200 10)
+	ElementLine(267 200 400 200 10)
+	ElementLine(133 200 267 134 10)
+	ElementLine(267 134 267 266 10)
+	ElementLine(267 266 133 200 10)
+	ElementLine(133 134 133 266 10)
+	Mark(0 200)
+)
+Element(0x00 "R025" "R3" "270_ohm" 0 0 0 100 0x00)
+(
+	Pin(0 50 68 38 "1" 0x101)
+	Pin(400 50 68 38 "2" 0x01)
+	ElementLine(100 0 300 0 20)
+	ElementLine(300 0 300 100 20)
+	ElementLine(300 100 100 100 20)
+	ElementLine(100 100 100 0 20)
+	ElementLine(0 50 100 50 20)
+	ElementLine(300 50 400 50 20)
+	Mark(0 50)
+)
+Element(0x00 "R025" "R2" "220_ohm" 0 0 0 100 0x00)
+(
+	Pin(0 50 68 38 "1" 0x101)
+	Pin(400 50 68 38 "2" 0x01)
+	ElementLine(100 0 300 0 20)
+	ElementLine(300 0 300 100 20)
+	ElementLine(300 100 100 100 20)
+	ElementLine(100 100 100 0 20)
+	ElementLine(0 50 100 50 20)
+	ElementLine(300 50 400 50 20)
+	Mark(0 50)
+)
+Element(0x00 "R025" "R1" "220_ohm" 0 0 0 100 0x00)
+(
+	Pin(0 50 68 38 "1" 0x101)
+	Pin(400 50 68 38 "2" 0x01)
+	ElementLine(100 0 300 0 20)
+	ElementLine(300 0 300 100 20)
+	ElementLine(300 100 100 100 20)
+	ElementLine(100 100 100 0 20)
+	ElementLine(0 50 100 50 20)
+	ElementLine(300 50 400 50 20)
+	Mark(0 50)
+)
+Element(0x00 "RCY100" "1" "0.01uf" 0 0 0 100 0x00)
+(
+	Pin(50 100 60 30 "1" 0x101)
+	Pin(150 100 60 30 "2" 0x01)
+	ElementArc(100 100 100 100 0 360 10)
+	Mark (50 100)
+)
+Element(0x00 "DIP6" "U1" "PC900V" 0 0 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(350 250 60 28 "4" 0x01)
+	Pin(350 150 60 28 "5" 0x01)
+	Pin(350 50 60 28 "6" 0x01)
+	ElementLine(0 0 0 300 10)
+	ElementLine(0 300 400 300 10)
+	ElementLine(400 300 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+Element["" "DIN5" "MIDI_OUT1" "unknown" 0 0 25000 -50000 0 100 ""]
+(
+	Pin[0 0 7399 1998 7999 5100 "" "1" "edge2"]
+	Pin[10000 10000 7399 1998 7999 5100 "" "4" "edge2"]
+	Pin[30000 0 7397 1998 7997 5100 "" "2" "edge2"]
+	Pin[50000 10000 7399 1998 7999 5100 "" "5" "edge2"]
+	Pin[60000 0 7399 1998 7999 5100 "" "3" "edge2"]
+	Pin[0 -20000 11000 1998 11000 11000 "" "1" "edge2"]
+	Pin[60000 -20000 11000 1998 11000 11000 "" "2" "edge2"]
+	Pin[20000 -40000 7397 1998 7997 5100 "" "Shield" "edge2"]
+	Pin[40000 -40000 7397 1998 7997 5100 "" "Shield" "edge2"]
+	ElementLine [-10000 -51000 71000 -51000 600]
+	ElementLine [-10000 -30000 -10000 -11000 600]
+	ElementLine [-10000 -43000 71000 -43000 600]
+	ElementLine [-10000 -43000 -10000 -46000 600]
+	ElementLine [-10000 -46000 -14000 -46000 600]
+	ElementLine [-14000 -46000 -14000 -48000 600]
+	ElementLine [-14000 -48000 -10000 -48000 600]
+	ElementLine [-10000 -48000 -10000 -51000 600]
+	ElementLine [71000 -51000 71000 -48000 600]
+	ElementLine [71000 -48000 67000 -48000 600]
+	ElementLine [67000 -48000 67000 -46000 600]
+	ElementLine [67000 -46000 71000 -46000 600]
+	ElementLine [71000 -46000 71000 -43000 600]
+	ElementLine [33000 8000 33000 14000 600]
+	ElementLine [0 -43000 0 -11000 600]
+	ElementLine [60000 -43000 60000 -11000 600]
+	ElementLine [71000 -11000 71000 -30000 600]
+	ElementLine [0 -30000 -10000 -30000 600]
+	ElementLine [-10000 -11000 71000 -11000 600]
+	ElementLine [60000 -30000 71000 -30000 600]
+	ElementLine [-10000 -11000 -6000 5000 600]
+	ElementLine [71000 -11000 67000 5000 600]
+	ElementLine [18000 -2000 18000 5000 600]
+	ElementLine [5000 5000 5000 -11000 600]
+	ElementLine [55000 5000 55000 -11000 600]
+	ElementLine [2000 5000 6000 14000 600]
+	ElementLine [58000 5000 54000 14000 600]
+	ElementLine [54000 14000 6000 14000 600]
+	ElementLine [22000 -11000 22000 14000 600]
+	ElementLine [38000 -11000 38000 14000 600]
+	ElementLine [38000 -2000 42000 -2000 600]
+	ElementLine [42000 -2000 42000 5000 600]
+	ElementLine [22000 -2000 18000 -2000 600]
+	ElementLine [-6000 5000 22000 5000 600]
+	ElementLine [38000 5000 67000 5000 600]
+	ElementLine [22000 8000 27000 8000 600]
+	ElementLine [27000 8000 27000 14000 600]
+	ElementLine [38000 8000 33000 8000 600]
+
+	)
+Element["" "DIN5" "MIDI_IN1" "unknown" 0 0 25000 -50000 0 100 ""]
+(
+	Pin[0 0 7399 1998 7999 5100 "" "1" "edge2"]
+	Pin[10000 10000 7399 1998 7999 5100 "" "4" "edge2"]
+	Pin[30000 0 7397 1998 7997 5100 "" "2" "edge2"]
+	Pin[50000 10000 7399 1998 7999 5100 "" "5" "edge2"]
+	Pin[60000 0 7399 1998 7999 5100 "" "3" "edge2"]
+	Pin[0 -20000 11000 1998 11000 11000 "" "1" "edge2"]
+	Pin[60000 -20000 11000 1998 11000 11000 "" "2" "edge2"]
+	Pin[20000 -40000 7397 1998 7997 5100 "" "Shield" "edge2"]
+	Pin[40000 -40000 7397 1998 7997 5100 "" "Shield" "edge2"]
+	ElementLine [-10000 -51000 71000 -51000 600]
+	ElementLine [-10000 -30000 -10000 -11000 600]
+	ElementLine [-10000 -43000 71000 -43000 600]
+	ElementLine [-10000 -43000 -10000 -46000 600]
+	ElementLine [-10000 -46000 -14000 -46000 600]
+	ElementLine [-14000 -46000 -14000 -48000 600]
+	ElementLine [-14000 -48000 -10000 -48000 600]
+	ElementLine [-10000 -48000 -10000 -51000 600]
+	ElementLine [71000 -51000 71000 -48000 600]
+	ElementLine [71000 -48000 67000 -48000 600]
+	ElementLine [67000 -48000 67000 -46000 600]
+	ElementLine [67000 -46000 71000 -46000 600]
+	ElementLine [71000 -46000 71000 -43000 600]
+	ElementLine [33000 8000 33000 14000 600]
+	ElementLine [0 -43000 0 -11000 600]
+	ElementLine [60000 -43000 60000 -11000 600]
+	ElementLine [71000 -11000 71000 -30000 600]
+	ElementLine [0 -30000 -10000 -30000 600]
+	ElementLine [-10000 -11000 71000 -11000 600]
+	ElementLine [60000 -30000 71000 -30000 600]
+	ElementLine [-10000 -11000 -6000 5000 600]
+	ElementLine [71000 -11000 67000 5000 600]
+	ElementLine [18000 -2000 18000 5000 600]
+	ElementLine [5000 5000 5000 -11000 600]
+	ElementLine [55000 5000 55000 -11000 600]
+	ElementLine [2000 5000 6000 14000 600]
+	ElementLine [58000 5000 54000 14000 600]
+	ElementLine [54000 14000 6000 14000 600]
+	ElementLine [22000 -11000 22000 14000 600]
+	ElementLine [38000 -11000 38000 14000 600]
+	ElementLine [38000 -2000 42000 -2000 600]
+	ElementLine [42000 -2000 42000 5000 600]
+	ElementLine [22000 -2000 18000 -2000 600]
+	ElementLine [-6000 5000 22000 5000 600]
+	ElementLine [38000 5000 67000 5000 600]
+	ElementLine [22000 8000 27000 8000 600]
+	ElementLine [27000 8000 27000 14000 600]
+	ElementLine [38000 8000 33000 8000 600]
+
+	)Layer(1 "top")
+(
+)
+Layer(2 "ground")
+(
+)
+Layer(3 "signal2")
+(
+)
+Layer(4 "signal3")
+(
+)
+Layer(5 "power")
+(
+)
+Layer(6 "bottom")
+(
+)
+Layer(7 "outline")
+(
+)
+Layer(8 "spare")
+(
+)
+Layer(9 "silk")
+(
+)
+Layer(10 "silk")
+(
+)
